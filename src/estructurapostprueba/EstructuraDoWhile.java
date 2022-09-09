@@ -12,6 +12,9 @@ public class EstructuraDoWhile {
 		System.out.println("Ciclo While");
 		while (num < 10) { //prueba
 			num++;
+			num /= 5; // num = num / 5
+			num *= 8; // num = num * 8
+			num--;
 			System.out.println("num = " + num);
 		}
 		//Con el do while
